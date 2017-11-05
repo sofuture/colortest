@@ -1,0 +1,6 @@
+required = ["github.com/fatih/color"]
+
+[[constraint]]
+  name = "github.com/fatih/color"
+  branch = "master"
+  source = "github.com/sofuture/color"
