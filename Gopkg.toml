@@ -1,6 +1,11 @@
-required = ["github.com/fatih/color"]
+required = ["github.com/fatih/color", "github.com/labstack/echo"]
 
 [[constraint]]
   name = "github.com/fatih/color"
   branch = "master"
   source = "github.com/sofuture/color"
+
+[[constraint]]
+  name = "github.com/labstack/echo"
+  branch = "master"
+  source = "github.com/sofuture/echo"

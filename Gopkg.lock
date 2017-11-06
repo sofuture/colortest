@@ -9,6 +9,19 @@
   source = "github.com/sofuture/color"
 
 [[projects]]
+  branch = "master"
+  name = "github.com/labstack/echo"
+  packages = ["."]
+  revision = "05fdb86ac4fe1fbab12dbea38e1ea6c7fab907ea"
+  source = "github.com/sofuture/echo"
+
+[[projects]]
+  name = "github.com/labstack/gommon"
+  packages = ["color","log"]
+  revision = "57409ada9da0f2afad6664c49502f8c50fbd8476"
+  version = "0.2.3"
+
+[[projects]]
   name = "github.com/mattn/go-colorable"
   packages = ["."]
   revision = "167de6bfdfba052fa6b2d3664c8f5272e23c9072"
@@ -22,6 +35,24 @@
 
 [[projects]]
   branch = "master"
+  name = "github.com/valyala/bytebufferpool"
+  packages = ["."]
+  revision = "e746df99fe4a3986f4d4f79e13c1e0117ce9c2f7"
+
+[[projects]]
+  branch = "master"
+  name = "github.com/valyala/fasttemplate"
+  packages = ["."]
+  revision = "dcecefd839c4193db0d35b88ec65b4c12d360ab0"
+
+[[projects]]
+  branch = "master"
+  name = "golang.org/x/crypto"
+  packages = ["acme","acme/autocert"]
+  revision = "ca1fcd4ab4c10bc58852a894bcf195fab2229efe"
+
+[[projects]]
+  branch = "master"
   name = "golang.org/x/sys"
   packages = ["unix"]
   revision = "8eb05f94d449fdf134ec24630ce69ada5b469c1c"
@@ -29,6 +60,6 @@
 [solve-meta]
   analyzer-name = "dep"
   analyzer-version = 1
-  inputs-digest = "ccc27d67a4ab9b7975c6999980f5ab0afd5adde1385b8b1a0f5f29000659bf2c"
+  inputs-digest = "e3f9d1e47397de55915e0d6f054260cd61c4a95181744e03ce9c74848b1dfcf6"
   solver-name = "gps-cdcl"
   solver-version = 1
